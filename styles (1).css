@@ -1,0 +1,54 @@
+.aText {
+  text-anchor: middle;
+  font-family: comic-sans;
+  font-size: 18px;
+  
+}
+
+.active {
+  font-weight: bold;
+  fill: #000;
+  transition: fill 0.5s ease-out;
+  text-anchor: middle;
+}
+
+.inactive {
+  font-weight: lighter;
+  text-anchor: middle;
+  fill: db4d4d;
+  transition: fill 0.5s ease-out;
+}
+
+.inactive:hover {
+  fill: #000;
+  cursor: pointer;
+}
+
+.stateText {
+  font-family: comic-sans;
+  text-anchor: middle;
+  fill: #ACC869;
+}
+
+.stateCircle {
+  fill: #89bdd3;
+  stroke: #e3e3e3;
+}
+
+.chart {
+  display: block;
+  margin: 0;
+}
+
+.d3-tip {
+  padding: 6px;
+  font-size: 14px;
+  line-height: 1;
+  line-height: 1.5em;
+  color: #ACC869;
+  text-align: center;
+  text-transform: capitalize;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+}
+
